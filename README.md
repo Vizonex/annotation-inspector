@@ -1,4 +1,6 @@
-# annotatation-tools
+# annotation-tools
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
+
 A Package inspried by typer's unique [function inspection logic](https://github.com/fastapi/typer/blob/a5882dedf0bc7a46cd861fdfca020f88519e0f21/typer/utils.py#L107) and
 turns configuring your own into a smaller system with a lot of 
 boilerplate code removed out of the equation allowing for 
