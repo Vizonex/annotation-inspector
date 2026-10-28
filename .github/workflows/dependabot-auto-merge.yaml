@@ -1,16 +1,12 @@
 name: Dependabot auto-merge
-on: pull_request
+on: pull_request_target
 
 permissions:
   pull-requests: write
   contents: write
 
 jobs:
-  run_test:
-    uses: ./.github/workflows/CI.yml
-
   dependabot:
-    needs: [run_test]
     runs-on: ubuntu-latest
     if: github.event.pull_request.user.login == 'dependabot[bot]'
     steps:
