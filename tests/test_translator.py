@@ -3,7 +3,7 @@ from typing import Annotated
 
 import pytest
 
-from annotation_tools import (
+from annotation_inspector import (
     IGNORE,
     AnnotationError,
     DuplicateAnnotationsError,

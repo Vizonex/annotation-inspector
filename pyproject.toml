@@ -1,5 +1,5 @@
 [project]
-name = "annotation-tools"
+name = "annotation-inspector"
 dynamic = ["version"]
 description = "Provides tools for function inspection and translating annotations."
 readme = "README.md"
