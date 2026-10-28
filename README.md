@@ -1,4 +1,4 @@
-# annotation-tools
+# annotation-inspector
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
 A Package inspried by typer's unique [function inspection logic](https://github.com/fastapi/typer/blob/a5882dedf0bc7a46cd861fdfca020f88519e0f21/typer/utils.py#L107) and
@@ -15,7 +15,7 @@ than just that.
 from dataclasses import dataclass
 from typing import Annotated
 
-from annotation_tools import IGNORE, Inspector
+from annotation_inspector import IGNORE, Inspector
 
 
 @dataclass
