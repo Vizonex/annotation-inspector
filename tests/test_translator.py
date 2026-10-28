@@ -36,6 +36,7 @@ class EmptyClass:
 class ClassWithArg:
     a: Annotated[int, A(1)]
 
+
 def func1(a: Annotated[int, A(1)], b: str) -> None:
     pass
 
